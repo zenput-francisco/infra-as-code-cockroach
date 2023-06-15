@@ -12,7 +12,7 @@ provider "cockroach" {
 
 resource "cockroach_cluster" "serverless_db" {
   cloud_provider = "AWS"
-  name = "Serverless Test DB"
+  name = "ServerlessTestDB"
   regions = [ {
     name = "us-east-1"
   } ]
